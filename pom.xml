@@ -9,10 +9,17 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.spb</groupId>
+<<<<<<< HEAD
 	<artifactId>BlogBeat</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>BlogBeat</name>
 	<description>blogging  appliaction learning purpose</description>
+=======
+	<artifactId>UserBeat</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>UserBeat</name>
+	<description>user appliaction learning purpose</description>
+>>>>>>> 4e3095a6c8614b0432c8fa92ae8c8c82a68a9608
 	<url/>
 	<licenses>
 		<license/>
@@ -67,7 +74,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
+<<<<<<< HEAD
 		</dependency>
+=======
+		</dependency>	
+>>>>>>> 4e3095a6c8614b0432c8fa92ae8c8c82a68a9608
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
@@ -86,6 +97,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-mail</artifactId>
 		</dependency>
+<<<<<<< HEAD
+=======
+		
+>>>>>>> 4e3095a6c8614b0432c8fa92ae8c8c82a68a9608
 	</dependencies>
 
 	<build>
